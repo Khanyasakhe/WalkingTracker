@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walking Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Walking Tracker</h1>
+    </header>
+    <main>
+        <section id="destination">
+            <h2>Enter Destination</h2>
+            <input type="text" id="destination-input" placeholder="Type address or select on map">
+            <button id="start-button">Start</button>
+        </section>
+        <section id="tracker">
+            <h2>Tracker</h2>
+            <p id="steps">Steps: 0</p>
+            <p id="distance">Distance: 0 km</p>
+            <p id="tokens">Tokens: 0</p>
+        </section>
+        <section id="map">
+            <div id="map-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
